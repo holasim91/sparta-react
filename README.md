@@ -1,70 +1,46 @@
-# Getting Started with Create React App
+# 일정관리 웹 만들기
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## 개발 화면
 
-## Available Scripts
+## 요구사항
+1. 이전 월, 다음 월 보기 버튼이 있고 해당 버튼 클릭 시 월 이동 가능하게 하기
 
-In the project directory, you can run:
+     → 구현 완료
 
-### `yarn start`
+2. 일정 하나를 클릭할 시 팝업 띄우기
+    - 팝업 내용: 일정 내용 및 일시 텍스트, 일정 삭제 및 일정 완료 버튼 2개
+        (각 버튼을 누르면 일정 삭제 혹은 일정 완료 되게 하기)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+    → 팝업 띄우기 완료
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+    → 팝업에 일정내용, 텍스트 띄우기 완료 버튼도 만들어놨으나 기능 구현X
+        
+        이유: 처음 잡은 데이터 구조를 다루지 못함. 
 
-### `yarn test`
+3. 일정 추가하기 버튼 (페이지 우측 아래에 플로팅 버튼으로 처리) 클릭 시 일정 추가하기 페이지로 이동하기
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+    → 구현 완료
 
-### `yarn build`
+4. 캘린더 내 일정은 시간 순으로 정렬하기
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+    -> 구현하지 못함
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+5. 우측 아래의 추가하기 버튼 위에 [완료된 일정 보기] 만들기
+    - 클릭 시, 완료된 일정만 캘린더에 표시 되고 버튼 텍스트가 [모든 일정 보기]로 바뀌도록 하기
+    - [모든 일정 보기] 버튼 클릭 시, 모든 일정 캘린더에 표시하기
+    - **[주의] 파이어스토어에서 필터해서 가져오지 말고 전체 데이터를 가져온 후, 리덕스에서 필터를 할 것 (컴포넌트에서도 가능)**
+    
+    → 구현하지 못함..
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+        이유: 파이어베이스와 리덕스를 연결하는데 이해부족.  
+            리덕스 내에서 데이터를 어떻게 다뤄야 하는건지에 대한 이해가 부족했다.
 
-### `yarn eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### 느낀점
+    여러모로 많이 부족함을 느낀 주차였다.
+    개인적으로 리액트 공부를 열심히 했다고 생각 했는데 과제를 해내지 못한 내 모습에 실망감이 크다.
+    좀 공부를 했었다고 초반에 살짝 풀어진 것이 패착이라 생각이 든다.
+    그리고 어설픈 지식이 얼마나 무서운 것인지 깨닫게되는 프로젝트였다.
+    앞으로 더 깊은 이해를 요구하는 프로젝트가 시작될 것이라고 예상이 되서
+    두려움이 있긴 하지만 이번 실패로 인해 남들보다 더 열심히 학습을 해야하는
+    큰 동기가 되길 바란다. 제발. 꼭.
