@@ -3,15 +3,16 @@
 ## 개발 화면
      ### 메인화면
      
-     ![main](https://user-images.githubusercontent.com/46669567/112490269-93562400-8dc2-11eb-8f9d-368ccfe89ab1.png)
+     
+   ![main](https://user-images.githubusercontent.com/46669567/112490269-93562400-8dc2-11eb-8f9d-368ccfe89ab1.png)
      
      ### 일정 추가화면
      
-     ![add_todo](https://user-images.githubusercontent.com/46669567/112490493-bf71a500-8dc2-11eb-80a2-ec398dd06155.png)
+   ![add_todo](https://user-images.githubusercontent.com/46669567/112490493-bf71a500-8dc2-11eb-80a2-ec398dd06155.png)
 
      ### 팝업 화면
      
-     <img width="838" alt="popup" src="https://user-images.githubusercontent.com/46669567/112490519-c698b300-8dc2-11eb-994e-37364cb700ea.png">
+   <img width="838" alt="popup" src="https://user-images.githubusercontent.com/46669567/112490519-c698b300-8dc2-11eb-994e-37364cb700ea.png">
 
 ## 요구사항
 1. 이전 월, 다음 월 보기 버튼이 있고 해당 버튼 클릭 시 월 이동 가능하게 하기
